@@ -10,7 +10,7 @@
     justify-content: space-between;
     background: $main-color;
     font-weight: 300;
-    padding: 0 1em;
+    padding: 0.8rem 1rem;
     color: $white;
     font-weight: bold;
     font-size: 1.7rem;
@@ -36,6 +36,10 @@
   li {
     display: block;
     float: left;
+    margin-right: 1rem;
+    &:last-of-type {
+      margin-right: 0;
+    }
 
     a {
       font-size: 1rem;
@@ -62,7 +66,6 @@
   }
   a {
     text-decoration: none;
-    padding: 1em 0.5em;
     display: block;
   }
 </style>

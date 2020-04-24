@@ -1,3 +1,9 @@
+<script>
+  import MissionHero from "../components/MissionHero.svelte";
+  import Content from "../components/Content.svelte";
+  import Bullet from "../components/Bullet.svelte";
+</script>
+
 <style>
   h1,
   figure,
@@ -11,16 +17,6 @@
     text-transform: uppercase;
     font-weight: 700;
     margin: 0 0 0.5em 0;
-  }
-
-  figure {
-    margin: 0 0 1em 0;
-  }
-
-  img {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 0 1em 0;
   }
 
   p {
@@ -38,9 +34,14 @@
   <title>#PumpTheSlump</title>
 </svelte:head>
 
-<h1>Great success!</h1>
-<p>
-  <strong>
-    Try editing this file (src/routes/index.svelte) to test live reloading.
-  </strong>
-</p>
+<MissionHero />
+<Content>
+  <Bullet
+    tip="Donate Meals from restaurants to healthcare workers with Frontline
+    Foods">
+    <a href="https://www.frontlinefoods.org/">Check it out here</a>
+  </Bullet>
+  <Bullet tip="The tip" />
+  <Bullet tip="The tip" />
+  <Bullet tip="The tip" />
+</Content>
