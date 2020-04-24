@@ -41,7 +41,11 @@
     Foods">
     <a href="https://www.frontlinefoods.org/">Check it out here</a>
   </Bullet>
-  <Bullet tip="The tip" />
+  <Bullet tip="Learn a Language">
+    Do you know someone who speaks a language you'd like to learn who is out of
+    work? Offer to pay them for their time teaching you the language over a
+    video conference.
+  </Bullet>
   <Bullet tip="The tip" />
   <Bullet tip="The tip" />
 </Content>
